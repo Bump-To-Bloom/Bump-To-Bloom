@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-sans: var(--font-lato); 
+  --font-serif: var(--font-playfair); 
+  --font-script: var(--font-greatvibes);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #f0e7de; 
+    --foreground: #0a0a0a; 
+    --links: #aa8f82;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes dropdown {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-dropdown {
+  animation: dropdown 0.25s ease-out forwards;
+}
