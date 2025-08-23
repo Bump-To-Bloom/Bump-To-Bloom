@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bumptobloomphotography.com.au
+
+# Sitemaps
+Sitemap: https://bumptobloomphotography.com.au/sitemap.xml

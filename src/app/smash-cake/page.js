@@ -45,10 +45,10 @@ export default function SmashCake() {
                     variants={fadeUp}
                 >
                     <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
-                        Celebrate your little one's first birthday in the most fun (and messy!) way possible — with a cake smash session designed just for them. These sessions are playful, colourful, and full of laughter as your baby explores their cake in a beautifully styled setup.
+                        Celebrate your little one&apos;s first birthday in the most fun (and messy!) way possible — with a cake smash session designed just for them. These sessions are playful, colourful, and full of laughter as your baby explores their cake in a beautifully styled setup.
                     </p>
                     <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
-                        Everything is taken care of -  including the cake, props, and themed styling - so you can relax and enjoy watching the chaos unfold. Let's capture the joy, curiosity, and cake-covered smiles to remember this milestone forever.
+                        Everything is taken care of -  including the cake, props, and themed styling - so you can relax and enjoy watching the chaos unfold. Let&apos;s capture the joy, curiosity, and cake-covered smiles to remember this milestone forever.
                     </p>
                 </motion.section>
 

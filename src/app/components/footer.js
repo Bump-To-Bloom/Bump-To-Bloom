@@ -16,7 +16,7 @@ export default function Footer() {
                 {/* TAGLINE / QUOTE */}
                 <div className="flex items-center justify-center text-center mt-10 px-1">
                     <p className="text-xl text-[var(--links)] md:text-4xl font-semibold font-script italic leading-snug">
-                        "Capturing life's most precious moments with care and creativity."
+                        &quot;Capturing life&apos;s most precious moments with care and creativity.&quot;
                     </p>
                 </div>
 

@@ -77,13 +77,13 @@ export default function Home() {
                         </div>
                         {/* TEXT CONTENT */}
                         <div className="w-full md:w-1/2 space-y-4">
-                            <h3 className="text-2xl font-bold font-serif">Hi, I'm Ella!</h3>
+                            <h3 className="text-2xl font-bold font-serif">Hi, I&apos;m Ella!</h3>
                             <p className="font-sans">
-                                I'm a Brisbane-based photographer dedicated to capturing life's fleeting moments.
+                                I&apos;m a Brisbane-based photographer dedicated to capturing life&apos;s fleeting moments.
                                 The soft joy of maternity, the laughter of families, and the beauty of love.
                             </p>
                             <p className="font-sans">
-                                I'm a family, maternity, couple, and smash cake photographer, passionate about turning fleeting moments into timeless keepsakes.
+                                I&apos;m a family, maternity, couple, and smash cake photographer, passionate about turning fleeting moments into timeless keepsakes.
                                 Based in the beautiful Moreton Bay Region, I have the privilege of capturing families, glowing mums-to-be, and couples across Brisbane, the Gold Coast, and the Sunshine Coast.
                                 From golden beaches, to scenic hinterlands, I love using our incredible locations as the backdrop for your most precious moments.
                             </p>

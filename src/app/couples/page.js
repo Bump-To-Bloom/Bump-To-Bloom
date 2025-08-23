@@ -55,10 +55,10 @@ export default function NewbornPage() {
           variants={fadeUp}
         >
           <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
-            For the love-filled moments, big and small. Whether you're celebrating an engagement, anniversary, or simply the joy of being together - these sessions are all about connection, laughter, and capturing the quiet magic between you.
+            For the love-filled moments, big and small. Whether you&apos;re celebrating an engagement, anniversary, or simply the joy of being together - these sessions are all about connection, laughter, and capturing the quiet magic between you.
           </p>
           <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
-            With soft natural light, relaxed guidance, and an eye for in-between moments. I'll document your story just as it feels - genuine, warm, and full of love.
+            With soft natural light, relaxed guidance, and an eye for in-between moments. I&apos;ll document your story just as it feels - genuine, warm, and full of love.
           </p>
         </motion.section>
 

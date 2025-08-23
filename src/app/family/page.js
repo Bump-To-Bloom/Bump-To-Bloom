@@ -45,7 +45,7 @@ export default function FamilyPage() {
                     variants={fadeUp}
                 >
                     <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
-                        At Bump to Bloom Photography, I believe the most beautiful photos come from real moments — the laughter, the cuddles, the quiet glances. My family sessions are relaxed, natural, and focused on connection. With golden hour light, gentle guidance, and access to my client closet, you'll feel at ease while I capture timeless images you'll cherish for years to come. Let's turn your everyday love into lasting memories.
+                        At Bump to Bloom Photography, I believe the most beautiful photos come from real moments — the laughter, the cuddles, the quiet glances. My family sessions are relaxed, natural, and focused on connection. With golden hour light, gentle guidance, and access to my client closet, you&apos;ll feel at ease while I capture timeless images you&apos;ll cherish for years to come. Let&apos;s turn your everyday love into lasting memories.
                     </p>
                 </motion.section>
 

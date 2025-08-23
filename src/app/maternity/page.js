@@ -56,9 +56,9 @@ export default function MaternityPage() {
           variants={fadeUp}
         >
           <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
-            Whether you're wrapped in a flowing dress from my client closet or holding hands with your partner at sunset,
+            Whether you&apos;re wrapped in a flowing dress from my client closet or holding hands with your partner at sunset,
             these moments deserve to be remembered — because your journey to motherhood is truly worth capturing.
-            Let's document the beginning of your next chapter.
+            Let&apos;s document the beginning of your next chapter.
           </p>
           <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
             If you wish to capture these moments with ultrasound pictures or other sentimental items, please ensure to bring them along your session.

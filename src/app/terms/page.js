@@ -18,7 +18,7 @@ export default function TermsAndConditions() {
 
             <section className="space-y-4">
                 <h2 className="text-2xl font-semibold">2. Rescheduling & Cancellation</h2>
-                <p>Clients may reschedule their session with at least 24 hours' notice. Retainers are non-refundable in all cases, including cancellation.</p>
+                <p>Clients may reschedule their session with at least 24 hours&apos; notice. Retainers are non-refundable in all cases, including cancellation.</p>
             </section>
 
             <section className="space-y-4">

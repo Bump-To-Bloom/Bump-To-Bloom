@@ -79,10 +79,10 @@ export default function AboutPage() {
                                 <div>
                                     <h3 className="text-2xl font-bold font-serif">Capturing your precious moments</h3>
                                     <p className="font-sans text-lg mt-2">
-                                        Hi, I'm Ella ✨ I am the heart and lens behind Bump to Bloom Photography. Based in North Brisbane, I am a mum, and someone who believes in capturing the magic of life's fleeting seasons.
+                                        Hi, I&apos;m Ella ✨ I am the heart and lens behind Bump to Bloom Photography. Based in North Brisbane, I am a mum, and someone who believes in capturing the magic of life&apos;s fleeting seasons.
                                     </p>
                                     <p className="font-sans text-lg mt-3">
-                                        Every photograph I take is about preserving the warmth, love, and authenticity of your family's story. These moments pass in a heartbeat, but your memories deserve to live on - natural, beautiful, and true to you.
+                                        Every photograph I take is about preserving the warmth, love, and authenticity of your family&apos;s story. These moments pass in a heartbeat, but your memories deserve to live on - natural, beautiful, and true to you.
                                     </p>
                                 </div>
                                 <div>
@@ -104,7 +104,7 @@ export default function AboutPage() {
                                     </p>
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold font-serif">Let's Bloom Together ✨</h3>
+                                    <h3 className="text-2xl font-bold font-serif">Let&apos;s Bloom Together ✨</h3>
                                     <p className="font-sans text-lg mt-2">
                                         Whether it is a maternity glow, a giggly family session, or a milestone worth celebrating, I would be honoured to capture it for you.
                                     </p>
@@ -136,7 +136,7 @@ export default function AboutPage() {
                         <div className="w-full max-w-3xl mx-auto space-y-4 text-center mt-6">
                             <p className="font-sans text-lg">
                                 Hello and welcome to Bump to Bloom Photography! <br />
-                                I'm Ella, your photographer for maternity, family, couple, and cake smash sessions.  
+                                I&apos;m Ella, your photographer for maternity, family, couple, and cake smash sessions.  
                                 My goal is to make each shoot relaxed, natural, and fun - so the photos you take home feel genuine and timeless.
                             </p>
                             <h2 className="text-2xl font-bold font-serif pt-4">What to Expect</h2>
@@ -206,7 +206,7 @@ export default function AboutPage() {
                         <div className="w-full max-w-3xl mx-auto space-y-4 text-center mt-10 mb-0">
                             <h2 className="text-2xl font-bold font-serif">Next Steps:</h2>
                             <ul className="space-y-3 text-base text-gray-700 font-sans mx-auto list-disc list-inside text-left md:text-center px-6">
-                                <li><strong>Contact:</strong> Using my email or through the "Book Now" buttons on the booking pages.</li>
+                                <li><strong>Contact:</strong> Using my email or through the &quot;Book Now&quot; buttons on the booking pages.</li>
                                 <li><strong>Booking:</strong> Secure your date with a deposit.</li>
                                 <li><strong>Prepare:</strong> Review styling tips and plan your outfits.</li>
                                 <li><strong>Enjoy:</strong> Relax and enjoy your session.</li>
