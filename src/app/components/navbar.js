@@ -30,7 +30,13 @@ export default function Navbar() {
             <div className="relative flex items-center justify-between h-16">
 
                 {/* HAMBURGER - MOBILE ONLY */}
-                <button onClick={() => setOpen(true)} className="md:hidden absolute left-0">
+                <button
+                    onClick={() => setOpen(true)}
+                    className="md:hidden absolute left-0"
+                    aria-label="Open menu"
+                    aria-controls="mobile-menu"
+                    aria-expanded={open ? "true" : "false"}
+                >
                     <Menu className="w-7 h-7 text-black" />
                 </button>
 
@@ -60,7 +66,13 @@ export default function Navbar() {
                         onMouseEnter={handleMouseEnter}
                         onMouseLeave={handleMouseLeave}
                     >
-                        <button className="hover:underline cursor-pointer">Online Booking</button>
+                        <button
+                            className="hover:underline cursor-pointer"
+                            aria-haspopup="true"
+                            aria-expanded={dropdownOpen ? "true" : "false"}
+                        >
+                            Online Booking
+                        </button>
 
                         {/* DESKTOP DROPDOWN MENU */}
                         {dropdownOpen && (
@@ -78,6 +90,14 @@ export default function Navbar() {
                     </div>
 
                     <Link href="/faq" className="hover:underline">FAQ</Link>
+                    <a
+                        href="https://book.usesession.com/i/5CWM4HSgH4/gift-cards"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline cursor-pointer"
+                    >
+                        Gift Cards
+                    </a>
                 </div>
             </div>
 
@@ -143,6 +163,8 @@ export default function Navbar() {
                                 <button
                                     onClick={() => setDropdownOpen(!dropdownOpen)}
                                     className="flex items-center justify-center w-full hover:underline"
+                                    aria-haspopup="true"
+                                    aria-expanded={dropdownOpen ? "true" : "false"}
                                 >
                                     <span>Online Booking</span>
                                     <svg

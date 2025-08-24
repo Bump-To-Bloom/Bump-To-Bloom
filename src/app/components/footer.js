@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 items-start gap-8">
                 {/* BRANDING */}
                 <div className="flex items-center gap-3 justify-center md:justify-start">
-                    <Image src="/logo-notext.webp" alt="Logo" width={200} height={200} />
+                    <Image src="/logo-notext.webp" alt="Bump to Bloom Photography logo" width={200} height={200} />
                 </div>
 
                 {/* TAGLINE / QUOTE */}
@@ -41,6 +41,7 @@ export default function Footer() {
                             href="https://instagram.com/bumptobloomphotography"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Instagram"
                             className="p-3 rounded-full bg-[var(--links)] hover:bg-[#8a7266] transition"
                         >
                             <Instagram className="w-6 h-6 text-white" />
@@ -49,6 +50,7 @@ export default function Footer() {
                                 href="https://www.facebook.com/groups/798155578499950/user/61579442406492/"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                aria-label="Facebook"
                                 className="p-3 rounded-full bg-[var(--links)] hover:bg-[#8a7266] transition"
                             >
                                 <Facebook className="w-6 h-6 text-white" />
@@ -57,6 +59,7 @@ export default function Footer() {
                             href="mailto:bumptobloomphotography@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
+                            aria-label="Email"
                             className="p-3 rounded-full bg-[var(--links)] hover:bg-[#8a7266] transition"
                         >
                             <Mail className="w-6 h-6 text-white" />

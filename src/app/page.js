@@ -41,11 +41,15 @@ export default function Home() {
             <section className="relative h-[90vh] w-full overflow-hidden">
                 <Image
                     src="/sessions/maternity.jpg"
-                    alt="Bump2Bloom"
+                    alt="Outdoor maternity portrait in warm natural light"
                     fill
-                    className="object-cover object-[50%_10%] object-center"
                     priority
+                    fetchPriority="high"
+                    sizes="100vw"
+                    quality={70}
+                    className="object-cover object-[50%_10%] object-center"
                 />
+
                 <div className="absolute inset-0 bg-black/30 flex flex-col items-center justify-center text-white text-center px-4">
                     <h1 className="text-4xl md:text-6xl font-serif font-light text-[#f0e7de]">Embracing the Moment from Bump To Bloom</h1>
                     <p className="mt-4 max-w-xl text-lg text-[#f0e7de] font-sans">
@@ -77,7 +81,7 @@ export default function Home() {
                         </div>
                         {/* TEXT CONTENT */}
                         <div className="w-full md:w-1/2 space-y-4">
-                            <h3 className="text-2xl font-bold font-serif">Hi, I&apos;m Ella!</h3>
+                            <h2 className="text-2xl font-bold font-serif">Hi, I&apos;m Ella!</h2>
                             <p className="font-sans">
                                 I&apos;m a Brisbane-based photographer dedicated to capturing life&apos;s fleeting moments.
                                 The soft joy of maternity, the laughter of families, and the beauty of love.
@@ -105,15 +109,17 @@ export default function Home() {
                             >
                                 <Image
                                     src={img}
-                                    alt={label}
-                                    width={600}
-                                    height={400}
+                                    alt={`${label} photography session example`}
+                                    width={364}
+                                    height={260}
+                                    sizes="(max-width: 768px) 100vw, 364px"
+                                    quality={70}
                                     className={`object-cover h-60 w-full transition-transform group-hover:scale-105 ${
                                         label === "Maternity"
-                                            ? "object-[50%_30%]"
-                                            : label === "Couples"
-                                            ? "object-[50%_40%]"
-                                            : "object-center"
+                                        ? "object-[50%_30%]"
+                                        : label === "Couples"
+                                        ? "object-[50%_40%]"
+                                        : "object-center"
                                     }`}
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-3 text-center">
