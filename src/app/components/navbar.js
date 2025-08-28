@@ -131,9 +131,10 @@ export default function Navbar() {
                             className="flex flex-col items-center w-full max-w-xs"
                         >
                             {[
-                                { href: "/", label: "Home" },
-                                { href: "/about", label: "About" },
-                                { href: "/faq", label: "FAQ" },
+                                { href: "/", label: "Home", type: "internal" },
+                                { href: "/about", label: "About", type: "internal" },
+                                { href: "/faq", label: "FAQ", type: "internal" },
+                                { href: "https://book.usesession.com/i/5CWM4HSgH4/gift-cards", label: "Gift Cards", type: "external" },
                             ].map((item, i) => (
                                 <motion.div
                                     key={i}
@@ -142,13 +143,25 @@ export default function Navbar() {
                                         visible: { opacity: 1, y: 0 },
                                     }}
                                 >
-                                    <Link
-                                        href={item.href}
-                                        onClick={() => setOpen(false)}
-                                        className="block w-full text-center hover:underline"
-                                    >
-                                        {item.label}
-                                    </Link>
+                                    {item.type === "external" ? (
+                                        <a
+                                            href={item.href}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            onClick={() => setOpen(false)}
+                                            className="block w-full text-center hover:underline"
+                                        >
+                                            {item.label}
+                                        </a>
+                                    ) : (
+                                        <Link
+                                            href={item.href}
+                                            onClick={() => setOpen(false)}
+                                            className="block w-full text-center hover:underline"
+                                        >
+                                            {item.label}
+                                        </Link>
+                                    )}
                                 </motion.div>
                             ))}
 
@@ -228,5 +241,5 @@ export default function Navbar() {
                 )}
             </AnimatePresence>
         </nav>
-    )
+    );
 }
