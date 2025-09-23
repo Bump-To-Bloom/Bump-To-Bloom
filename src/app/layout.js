@@ -2,6 +2,7 @@ import { Great_Vibes, Playfair_Display, Lato, Allura } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import WaitlistPopup from "./components/waitlist-popup";
 
 const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400", variable: "--font-greatvibes" });
 const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-playfair" });
@@ -80,6 +81,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`${lato.variable} ${playfair.variable} ${greatVibes.variable}`}>
+        <WaitlistPopup />
         <Navbar />
         {children}
         <Footer />

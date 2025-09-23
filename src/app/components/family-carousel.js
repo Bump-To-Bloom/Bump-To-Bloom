@@ -9,6 +9,9 @@ const images = [
     '/family-gallery/img1.jpg',
     '/family-gallery/img2.jpg',
     '/family-gallery/img3.jpg',
+    '/family-gallery/img4.jpg',
+    '/family-gallery/img5.jpg',
+    '/family-gallery/img6.jpg',
 ]
 
 // FUNCTION

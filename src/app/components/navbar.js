@@ -83,6 +83,7 @@ export default function Navbar() {
                             >
                                 <Link href="/maternity" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Maternity</Link>
                                 <Link href="/couples" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Couples</Link>
+                                <Link href="/proposal" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Proposal</Link>
                                 <Link href="/family" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Family</Link>
                                 <Link href="/smash-cake" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Smash Cake</Link>
                             </div>
@@ -212,6 +213,7 @@ export default function Navbar() {
                                             {[
                                                 { href: "/maternity", label: "Maternity" },
                                                 { href: "/couples", label: "Couples" },
+                                                { href: "/proposal", label: "Proposal" },
                                                 { href: "/family", label: "Family" },
                                                 { href: "/smash-cake", label: "Smash Cake" },
                                             ].map((item, i) => (
