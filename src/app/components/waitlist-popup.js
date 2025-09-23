@@ -201,8 +201,8 @@ export default function WaitlistPopup() {
                                 </>
                             ) : (
                                 <div className="text-center">
-                                    <h1 className="text-xl font-bold mb-2">You're on the waitlist! 🎉</h1>
-                                    <p>We'll keep you updated with the latest news.</p>
+                                    <h1 className="text-xl font-bold mb-2">You&apos;re on the waitlist! 🎉</h1>
+                                    <p>We&apos;ll keep you updated with the latest news.</p>
                                 </div>
                             )}
                         </motion.div>

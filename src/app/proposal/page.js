@@ -45,7 +45,7 @@ export default function ProposalPage() {
                     variants={fadeUp}
                 >
                     <p className="max-w-2xl mx-auto text-base text-gray-700 font-sans">
-                       Your proposal is one of lifes most unforgettable moments, the beginning of forever. Having it captured means you will be able to relive the joy, surprise, and love for years to come. Imagine looking back on the exact second you said "YES". The emotion, the laughter, the happy tears, all preserved in heartfelt photographs.
+                       Your proposal is one of lifes most unforgettable moments, the beginning of forever. Having it captured means you will be able to relive the joy, surprise, and love for years to come. Imagine looking back on the exact second you said &quot;YES&quot;. The emotion, the laughter, the happy tears, all preserved in heartfelt photographs.
                     </p>
                 </motion.section>
 
