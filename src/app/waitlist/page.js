@@ -14,7 +14,7 @@ export default function WaitlistAdminPage() {
     const [totalCount, setTotalCount] = useState(0);
     const [page, setPage] = useState(1);
 
-    const ITEMS_PER_PAGE = 1;
+    const ITEMS_PER_PAGE = 10;
     const correctPassword = process.env.NEXT_PUBLIC_ADMIN_PASS;
 
     // CHECK LOCAL STORAGE FOR SAVED LOGIN
