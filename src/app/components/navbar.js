@@ -82,6 +82,7 @@ export default function Navbar() {
                                 onMouseLeave={handleMouseLeave}
                             >
                                 <Link href="/maternity" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Maternity</Link>
+                                <Link href="/fresh48" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Fresh48</Link>
                                 <Link href="/couples" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Couples</Link>
                                 <Link href="/proposal" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Proposal</Link>
                                 <Link href="/family" className="block px-5 py-2 hover:bg-[#e5dbd2] transition-colors">Family</Link>
@@ -212,6 +213,7 @@ export default function Navbar() {
                                         >
                                             {[
                                                 { href: "/maternity", label: "Maternity" },
+                                                { href: "/fresh", label: "Fresh48" },
                                                 { href: "/couples", label: "Couples" },
                                                 { href: "/proposal", label: "Proposal" },
                                                 { href: "/family", label: "Family" },
