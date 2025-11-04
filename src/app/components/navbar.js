@@ -213,7 +213,7 @@ export default function Navbar() {
                                         >
                                             {[
                                                 { href: "/maternity", label: "Maternity" },
-                                                { href: "/fresh", label: "Fresh48" },
+                                                { href: "/fresh48", label: "Fresh48" },
                                                 { href: "/couples", label: "Couples" },
                                                 { href: "/proposal", label: "Proposal" },
                                                 { href: "/family", label: "Family" },
