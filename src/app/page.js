@@ -190,7 +190,7 @@ export default function Home() {
                                     </h3>
 
                                     <p className="font-sans mb-8 leading-relaxed text-[var(--foreground)]/90">
-                                        "We had such a great experience with Ella! From booking through to the shoot and final edits, the whole process was simple, smooth, and professional. Ella made our family feel comfortable and captured such genuine, beautiful moments. We absolutely love our photos and will treasure them for years to come. Highly recommend!"
+                                        &ldquo;We had such a great experience with Ella! From booking through to the shoot and final edits, the whole process was simple, smooth, and professional. Ella made our family feel comfortable and captured such genuine, beautiful moments. We absolutely love our photos and will treasure them for years to come. Highly recommend!&rdquo;
                                     </p>
                                 </div>
 
@@ -241,7 +241,7 @@ export default function Home() {
                                     </h3>
 
                                     <p className="font-sans mb-8 leading-relaxed text-[var(--foreground)]/85">
-                                        "I’m so grateful to Bump To Bloom Photography for beautifully capturing such a special moment in my life. The pictures and videos from my proposal engagement are absolutely stunning—unique, elegant, and full of emotion. Truly exceeded my expectations."
+                                        &ldquo;I&rsquo;m so grateful to Bump To Bloom Photography for beautifully capturing such a special moment in my life. The pictures and videos from my proposal engagement are absolutely stunning—unique, elegant, and full of emotion. Truly exceeded my expectations.&rdquo;
                                     </p>
                                 </div>
 
