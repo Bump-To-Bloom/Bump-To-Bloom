@@ -81,7 +81,6 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={`${lato.variable} ${playfair.variable} ${greatVibes.variable}`}>
-        <ChristmasPopup />
         <Navbar />
         {children}
         <Footer />

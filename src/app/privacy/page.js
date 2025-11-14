@@ -55,6 +55,7 @@ export default function PrivacyPolicy() {
                     <li>Online booking and scheduling</li>
                     <li>Payment processing</li>
                     <li>Email communication or invoicing</li>
+                    <li><strong>FormSubmit (or our chosen contact form provider):</strong> When you submit an enquiry through our contact form, your message and contact details are securely transmitted to our email inbox via an external form delivery service. This service does not use your information for marketing or share it with third parties.</li>
                 </ul>
                 <p>Some data may be stored on servers located outside Australia (e.g., in the United States or Europe), but all providers are required to maintain the privacy and security of your data.</p>
             </section>

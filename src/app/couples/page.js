@@ -2,7 +2,7 @@
 
 // IMPORTS
 import Image from "next/image";
-import NewbornCarousel from "../components/newborncarousel";
+import CouplesCarousel from "../components/couples-carousel";
 import { motion } from "framer-motion";
 import usePageAnimation from "../hooks/usePageAnimation";
 
@@ -13,7 +13,7 @@ const fadeUp = {
 };
 
 // NEWBORN PAGE
-export default function NewbornPage() {
+export default function CouplesPage() {
   const hasAnimated = usePageAnimation("newborn");
   return (
     <>
@@ -31,17 +31,7 @@ export default function NewbornPage() {
       </div>
 
       {/* GALLERY */}
-      <div className="w-full max-w-3xl mx-auto mt-10 px-4">
-        <div className="relative aspect-[16/9] rounded-lg overflow-hidden shadow-lg">
-          <Image
-            src="/sessions/couples.jpg"
-            alt="Couple session"
-            fill
-            className="object-cover object-[50%_20%]"
-            priority
-          />
-        </div>
-      </div>
+      <CouplesCarousel />
       
       {/* HERO PAGE */}
       <main className="px-6 py-5 max-w-7xl mx-auto text-center space-y-16">
