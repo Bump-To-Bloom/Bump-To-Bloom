@@ -71,6 +71,7 @@ export default function Navbar() {
                             text-sm font-medium tracking-wide
                             shadow-sm hover:opacity-90 active:scale-95
                             transition-all duration-200 ease-out
+                            translate-y-5
                         "
                     >
                         <svg

@@ -40,7 +40,7 @@ export default function Footer() {
                             <a href="/fresh48" className="block text-[var(--olive)] hover:underline font-sans">Fresh48</a>
                             <a href="/gender-reveal" className="block text-[var(--olive)] hover:underline font-sans">Gender Reveal</a>
                             <a href="/smash-cake" className="block text-[var(--olive)] hover:underline font-sans">Smash Cake</a>
-                            <a href="/proposals" className="block text-[var(--olive)] hover:underline font-sans">Proposal</a>
+                            <a href="/proposal" className="block text-[var(--olive)] hover:underline font-sans">Proposal</a>
                         </div>
                     </div>
                 </div>

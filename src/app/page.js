@@ -109,11 +109,11 @@ export default function Home() {
                         fetchPriority="high"
                         sizes="100vw"
                         quality={70}
-                        className="object-cover object-[50%_10%]"
+                        className="object-cover object-[20%_10%] md:object-[50%_10%]"
                     />
 
                     <div className="hidden md:block absolute right-16 top-1/2 -translate-y-1/2 bg-[var(--olive)] text-[var(--cream)] p-8 rounded-2xl shadow-xl w-[340px] text-left">
-                        <h3 className="text-2xl font-serif mb-3 text-center">Let’s Create Something Beautiful</h3>
+                        <h3 className="text-2xl font-serif mb-3 text-center">Let&rsquo;s Create Something Beautiful</h3>
 
                         <p className="font-sans text-[var(--cream)]/85 text-[15px] leading-snug mb-6">
                             Warm, natural and timeless photography for mothers, families and couples — capturing real connection across Brisbane, the Sunshine Coast, and the Gold Coast.
@@ -194,7 +194,7 @@ export default function Home() {
                                     </p>
                                 </div>
 
-                                <div className="relative w-full max-w-xl mx-auto md:-mt-40">
+                                <div className="relative w-full max-w-xl mx-auto -mt-20 md:-mt-40">
                                     <div className="grid grid-cols-2 gap-2 h-[520px]">
                                         <div className="relative w-full h-full overflow-hidden rounded-lg shadow-md">
                                             <Image src="/testomonials/testomonial-1/img1.jpg" alt="Gallery 1" fill className="object-cover object-[50%_52%]" />
@@ -218,7 +218,7 @@ export default function Home() {
                         <div className="bg-[var(--background)] py-28 px-6 w-full">
                             <div className="w-full max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center md:flex-row-reverse">
 
-                                <div className="relative w-full max-w-xl mx-auto md:-mt-40 order-last md:order-first">
+                                <div className="relative w-full max-w-xl mx-auto -mt-20 md:-mt-40 order-last md:order-first">
                                     <div className="grid grid-cols-2 gap-2 h-[520px]">
                                         <div className="relative w-full h-full overflow-hidden rounded-lg shadow-md">
                                             <Image src="/testomonials/testomonial-2/img1.jpg" alt="Gallery 1" fill className="object-cover" />

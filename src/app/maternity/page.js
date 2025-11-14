@@ -38,7 +38,7 @@ export default function MaternityPage() {
             src="/sessions/maternity.jpg"
             alt="Couple session"
             fill
-            className="object-cover object-[50%_70%]"
+            className="object-cover object-[50%_20%]"
             priority
           />
         </div>
