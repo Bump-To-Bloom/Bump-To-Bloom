@@ -109,7 +109,7 @@ export default function Home() {
                         fetchPriority="high"
                         sizes="100vw"
                         quality={70}
-                        className="object-cover object-[20%_10%] md:object-[50%_10%]"
+                        className="object-cover object-[15%_10%] md:object-[50%_10%]"
                     />
 
                     <div className="hidden md:block absolute right-16 top-1/2 -translate-y-1/2 bg-[var(--olive)] text-[var(--cream)] p-8 rounded-2xl shadow-xl w-[340px] text-left">
